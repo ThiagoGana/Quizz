@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context="com.tijojose27.quizapp.QuizActivity">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="TYPE IN YOUR NAME"/>
+
+        <EditText
+            android:id="@+id/name_Edit_View"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/question1_Text_View"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            tools:text="Hiw there" />
+
+        <RadioGroup
+            android:id="@+id/Radio_Group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/a1_Radio_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="annser to the question is " />
+
+            <RadioButton
+                android:id="@+id/a2_Radio_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="annser to the question is " />
+
+            <RadioButton
+                android:id="@+id/a3_Radio_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="annser to the question is " />
+
+            <RadioButton
+                android:id="@+id/a4_Radio_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="annser to the question is " />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_2_Text_View"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            tools:text="Second question" />
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/checkbox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Answer1" />
+
+        <CheckBox
+            android:id="@+id/checkbox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/question4_Text_View"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            tools:text="question 4 here and there"/>
+
+        <EditText
+            android:id="@+id/a4_Edit_Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/question5_Text_View"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            tools:text="question 4 here and there"/>
+
+        <RadioGroup
+            android:id="@+id/Radio_Group2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/a2a_Radio_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="annser to the question is " />
+
+            <RadioButton
+                android:id="@+id/a2b_Radio_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="annser to the question is " />
+
+            <RadioButton
+                android:id="@+id/a2c_Radio_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="annser to the question is " />
+
+            <RadioButton
+                android:id="@+id/a2d_Radio_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="annser to the question is " />
+        </RadioGroup>
+
+
+
+        <Button
+            android:id="@+id/get_score_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="get Score" />
+
+        <Button
+            android:id="@+id/reset_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Reset" />
+    </LinearLayout>
+</ScrollView>

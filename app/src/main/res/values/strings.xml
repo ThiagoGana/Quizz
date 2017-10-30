@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="q1">What is the building blocks of a human being?</string>
+    <string name="a1a">RNA</string>
+    <string name="a1b">m-RNA</string>
+    <string name="a1c">Atoms</string>
+    <string name="a1da_ans">DNA</string>
+
+    <string name="q2">Mitchondria helps us with what tasks in the body?</string>
+    <string name="a2a_a">Respiration</string>
+    <string name="a2b">Immunity</string>
+    <string name="a2c">Reproduction</string>
+    <string name="a2d_a">Energy</string>
+
+    <string name="q3">What is the full form of RNA</string>
+    <string name="a3a">Ramdom neuro acid</string>
+    <string name="a3b">Ribo neutral acid</string>
+    <string name="a3c_aa">Ribonucleic Acid</string>
+    <string name="a3d">Reverse Neuron Action</string>
+
+    <string name="q4">Almost all humans have a ______-stranded DNA structure</string>
+
+    <string name="q5">What is genetics</string>
+    <string name="a5a_a">Study of genes</string>
+    <string name="a5b">Study of human body</string>
+    <string name="a5c">Study of offsprings</string>
+    <string name="a5d">Study of respitory function</string>
+</resources>
