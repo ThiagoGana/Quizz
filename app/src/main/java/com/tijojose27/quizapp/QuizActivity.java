@@ -142,8 +142,8 @@ public class QuizActivity extends AppCompatActivity {
             }
         }
         //GETTING THE SELECTED CHECKBOXES AND ASSIGNING SCORE
-        if(mCheckBoxA1.isChecked()==true && mCheckBoxA4.isChecked()==true &&
-                mCheckBoxA3.isChecked()!=true && mCheckBoxA2.isChecked()!=true){
+        if(mCheckBoxA1.isChecked() && mCheckBoxA4.isChecked() &&
+                !mCheckBoxA3.isChecked() && !mCheckBoxA2.isChecked()){
             score++;
         }
 
@@ -163,7 +163,7 @@ public class QuizActivity extends AppCompatActivity {
         }
 
         //GETTING SCORE AND MAKING TOAST
-        Toast.makeText(QuizActivity.this, mName+" score is "+score,Toast.LENGTH_SHORT).show();
+        Toast.makeText(QuizActivity.this, mName+" your score is "+score,Toast.LENGTH_SHORT).show();
     }
 
     //METHOD TO RESET THE APP
